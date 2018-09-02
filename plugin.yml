@@ -1,0 +1,19 @@
+name: pluginDeTest
+version: 1.0
+author: MarcJus
+main: fr.marcjus.plugindetest.pluginDeTest
+commands:
+  test:
+    description: Ceci est une commande de test
+  day:
+    description: Mettre le jour
+    permission: test.use
+  night:
+    description: Mettre la nuit
+    permission: test.use
+  gm:
+    description: Change le mode de jeu
+    permission: test.use
+  lobby:
+    description: permet de revenir au spawn
+    permission: default
