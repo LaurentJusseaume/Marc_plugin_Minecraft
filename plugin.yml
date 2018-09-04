@@ -7,13 +7,33 @@ commands:
     description: Ceci est une commande de test
   day:
     description: Mettre le jour
-    permission: test.use
+    usage: /day [monde]
+    permission: day.use
   night:
     description: Mettre la nuit
-    permission: test.use
+    usage: /night [monde]
+    permission: night.use
   gm:
     description: Change le mode de jeu
-    permission: test.use
+    usage: /gm <mode> [joueur]
+    permission: gm.use
   lobby:
     description: permet de revenir au spawn
-    permission: default
+    usage: /lobby [monde]
+    permission: lobby.marc
+permissions:
+  day.use:
+          description: Mettre le jour
+          default: op
+  night.use:
+          description: Mettre la nuit
+          default: op
+  gm.use:
+          description: Change le mode de jeu
+          default: op
+  lobby.marc:
+          description: Teleporte au spawn
+          default: true
+
+
+    
