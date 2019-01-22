@@ -17,10 +17,6 @@ commands:
     description: Change le mode de jeu
     usage: /gm <mode> [joueur]
     permission: gm.use
-  lobby:
-    description: permet de revenir au spawn
-    usage: /lobby [monde]
-    permission: lobby.marc
 permissions:
   day.use:
           description: Mettre le jour
@@ -31,9 +27,7 @@ permissions:
   gm.use:
           description: Change le mode de jeu
           default: op
-  lobby.marc:
-          description: Teleporte au spawn
-          default: true
+  
 
 
     
