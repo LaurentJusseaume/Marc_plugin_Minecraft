@@ -2,8 +2,6 @@ package fr.marcjus.plugindetest;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-import fr.marcjus.plugindetest.command.CommandLobby;
-
 //import com.avaje.ebean.validation.Length;
 
 import fr.marcjus.plugindetest.command.Commandtest;
@@ -208,7 +206,6 @@ public class pluginDeTest extends JavaPlugin {
 		getCommand("day").setExecutor(new CommandDay());
 		getCommand("night").setExecutor(new CommandNight());
 		getCommand("gm").setExecutor(new CommandGm());
-		getCommand("lobby").setExecutor(new CommandLobby());
 		getServer().getPluginManager().registerEvents(new pluginListener(), this);
 	}	
 		
